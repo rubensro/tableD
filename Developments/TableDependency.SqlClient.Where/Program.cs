@@ -45,6 +45,7 @@ namespace TableDependency.SqlClient.Where.Development
         private static void OnError(object sender, ErrorEventArgs e)
         {
             Console.WriteLine(e.Error.Message);
+            
         }
 
         private static void Changed(object sender, RecordChangedEventArgs<Product> e)
